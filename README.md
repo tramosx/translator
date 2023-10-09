@@ -14,12 +14,9 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 - Redis
 - Bibliotecas Python: requests, redis
 
+
 ## Instalação
-
-1. Clone este repositório para sua máquina local:
-
-   ```bash
-   git clone https://github.com/seu-usuario/api-traducao-flask-redis.git
+`pip install -r requirements.txt`
 
 
 ## Execução
