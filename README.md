@@ -20,3 +20,22 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 
    ```bash
    git clone https://github.com/seu-usuario/api-traducao-flask-redis.git
+
+
+## Execução
+
+Para iniciar o serviço Redis com o Docker Compose, siga estas etapas:
+
+Certifique-se de ter o Docker e o Docker Compose instalados em seu sistema.
+
+No terminal, execute o seguinte comando:
+`docker-compose up -d`
+
+O Docker Compose irá criar e iniciar um contêiner Redis local usando as configurações definidas no arquivo docker-compose.yml. 
+O Redis estará disponível em localhost:6379.
+
+
+Para iniciar o aplicativo, execute o seguinte comando:
+`make api`
+
+Isso iniciará o servidor Flask e tornará os endpoints /translate e /translate_cache acessíveis em http://localhost:5000.
